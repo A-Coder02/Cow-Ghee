@@ -13,14 +13,18 @@ body {
   /* position: relative; */
   font-family: "Otomanopee One", sans-serif;
   animation-name: body;
-  animation-duration: 15s;
+  animation-duration: 50s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-fill-mode: forwards;
   background-size: 300px;
   -o-animation-timing-function: linear;
 }
-@keyframes bdy {
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@keyframes body {
   from {
     background-position: 100% 100%;
   }
@@ -90,7 +94,8 @@ h1.header-main {
   text-align: center;
   top: 121px;
   left: -9px;
-  color: #716a29;
+  color: #ffffff;
+  text-shadow: 0px 0px 6px #5a5206;
 }
 .radius span {
   font-size: 1.5rem;
